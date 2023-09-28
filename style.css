@@ -1,0 +1,50 @@
+audio{
+    opacity: 0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+.center img{
+    position: absolute;
+}
+.third{
+    height: 1050px;
+    opacity: 0.5;
+    animation: rotate 25s infinite;
+    animation-delay: 2s;
+}
+.second{
+    height: 850px;
+    opacity: 0.8;
+    animation: rotate 25s infinite;
+    animation-delay: 1s;
+}
+.first{
+    height: 650px;
+    opacity: 1;
+    animation: rotate 25s infinite;
+}
+.ganu{
+    transform: translateY(-40px);
+    animation: ganu 5s infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* .thali{
+    
+    animation: thali 15s infinite;
+}
+@keyframes thali{
+   0%{
+    transform: matrix(5%);
+   }
+} */
